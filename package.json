@@ -1,0 +1,19 @@
+{
+  "name": "edu-films",
+  "version": "1.0.0",
+  "description": "Edu Films",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eduardo-Ortiz-Quiroz/Edu-Films.git"
+  },
+  "author": "@EduOQuiroz paincore.px@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Eduardo-Ortiz-Quiroz/Edu-Films/issues"
+  },
+  "homepage": "https://github.com/Eduardo-Ortiz-Quiroz/Edu-Films#readme"
+}
