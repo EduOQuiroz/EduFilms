@@ -72,6 +72,7 @@ function createMovies(movies, container, {
             movieBtn.classList.toggle('movie-btn--liked')
             likeMovie(movie);
             getLikedMovies();
+            getTrendindMoviesPreview();
         })
         if(lazyLoad){
         lazyLoader.observe(movieImg);
@@ -106,6 +107,7 @@ async function getTrendindMoviesPreview(){
         lazyLoad: true,
         clean: true,
     });
+    getLikedMovies();
 }
 async function getTrendindMovies(){
     const {data} = await api('/trending/movie/day');

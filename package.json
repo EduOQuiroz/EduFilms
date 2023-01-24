@@ -4,7 +4,8 @@
   "description": "Edu Films",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Eduardo-Ortiz-Quiroz/Edu-Films/issues"
   },
-  "homepage": "https://github.com/Eduardo-Ortiz-Quiroz/Edu-Films#readme"
+  "homepage": "https://github.com/Eduardo-Ortiz-Quiroz/Edu-Films#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
